@@ -82,6 +82,13 @@ setInterval(() => {
   updateUI();
 }, 10000); // every 10 seconds
 
-// ---------- INIT ----------
-loadState();
-updateUI();
+// ---------- ADD EVENT LISTENERS ----------
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("complimentBtn").addEventListener("click", giveCompliment);
+  document.getElementById("waterBtn").addEventListener("click", () => care(5));
+  document.getElementById("sunBtn").addEventListener("click", () => care(7));
+  document.getElementById("talkBtn").addEventListener("click", () => care(6));
+
+  loadState();
+  updateUI();
+});
