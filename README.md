@@ -22,3 +22,6 @@ Compliment Cactus is fun,interactive web app where u take care of a virtual cact
 
 ---
 ## Project Structure
+
+<img width="252" height="180" alt="image" src="https://github.com/user-attachments/assets/a4e749ed-a774-4bb5-9073-dff9718b7909" />
+Made with 🌵 + kindness
