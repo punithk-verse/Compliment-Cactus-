@@ -7,9 +7,9 @@ let careActions = 0;
 const responses = [
   "The cactus feels appreciated 🌵💖",
   "Photosynthesis boosted by kindness ☀️",
-  "Your words nourish my soul.",
+  "Your words nourish my soul.🌱✨",
   "Spikes up! That was nice.",
-  "Emotional support cactus activated."
+  "Emotional support cactus activated.🌵🤗"
 ];
 
 // ---------- LOAD / SAVE ----------
@@ -92,3 +92,4 @@ document.addEventListener("DOMContentLoaded", () => {
   loadState();
   updateUI();
 });
+
