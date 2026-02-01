@@ -1,0 +1,74 @@
+body{
+    font-family:Arial,snas-serif;
+    background:linear-gradient(135deg,#e0ffe6,#f0fff4);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+
+.app {
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    width:340px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.cactus {
+    font-size:80px;
+    margin:10px 0;
+    transition:transform 0.3s;
+}
+
+.cactus.happy {
+    transform: scale(1.15);
+}
+
+.mood {
+    font-weight:bold;
+}
+
+.stats {
+    margin:10px 0;
+    font-size: 14px;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin-top:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    margin-top: 8px;
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#4caf50;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#43a047;
+}
+
+.actions button{
+    background:#81c784;
+}
+
+.actions button:hover{
+    background:#66bb6a;
+}
+
+.response{
+    margin-top:12px;
+    font-style:italic;
+}

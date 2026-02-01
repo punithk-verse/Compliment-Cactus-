@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compliment Cactus 🌵</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='app'>
+        <h2>Compliment Cactus 🌵</h2>
+        <div id="mood" class="mood">Mood:Neutral</div>
+        <div id="personality"></div>
+        <hr>
+        <div class="stats">
+            <div id="happiness">Happiness:50</div>
+            <div id="compliments">Compliments given: 0</div>
+            <div id="carecount">Care actions:0</div>
+        </div>
+        <input
+           id="complimentInput"
+           type="text"
+           placeholder="Give the cactus a compliment..."
+           />
+           <button id="giveCompliment()">Compliment 🌟</button>
+           <div class="actions">
+                <button onclick="care('water')">Water 🌊</button>
+                <button onclick="care('sunlight')">Sunlight ☀️</button>
+                <button onclick="care('talk')">Talk 🗣️</button>
+           </div>
+           <div id="response" class="response"></div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
